@@ -22,8 +22,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgba(0, 0, 0, 0.87);
+    background-color:black;
     top: 0px;
+    z-index: 1000;
 }
 nav img{
 margin: 42px 0px 0px -60px;
@@ -46,27 +47,25 @@ nav a {
 }
 
 header {
-    height: fit-content;
-    width: fit-content;
-    border-image: url('../Recycling-Club-Page/Images/alfonso-navarro-qph7tJfcDys-unsplash.jpg');
+    height: 1100px;
+    background-image: url('https://source.unsplash.com/YzSZN3qvHeo/900x700');
     display: flex;
-    margin: 85px auto 30px auto; 
+    margin: 90px auto 30px auto; 
     background-size: cover;
-    background-position: center;
-    
-   
-  
+    background-position: center;  
+    background-repeat: no-repeat;
 }
 
 header h2 {
-    color:black;
-    opacity: 0.65;
+    color:white;
     text-align: center;
     font-family: 'Courier new', Courier, monospace;
     width: 100%;
     z-index: 100;
-    font-size: 60px;
-    margin: 35% auto 100px auto;
+    font-size: 3.75rem;
+    margin: 68% auto 100px auto;
+    background-color: black;
+    max-height: 9rem;
 }
 
 #Experience {
