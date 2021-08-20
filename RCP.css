@@ -3,6 +3,7 @@ html {
     font-family: 'Courier New', Courier, monospace;
     color:black;
     background-color: white;
+    ;
 } 
 .body {
     margin: 0;
@@ -14,64 +15,50 @@ html {
 }
 /* Nav Bar */
 nav {
-    height: 80px;
+    height: 85px;
     position: fixed;
     width: 100%;
     color:  white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.87);
     top: 0px;
 }
+nav img{
+margin: 42px 0px 0px -60px;
+}
 
-nav .ul {
-margin: 0 30px;
+nav .links {
+margin: 30px 30px;
 display: flex;
 align-items: center;
 font-family: 'Courier New', Courier, monospace;
 justify-content: space-between;
 
-
 }
-/*.logo {
-    font-family: 'Style Script';
-    font-size: 55px;
-    float: left;
-    color: black;
-    padding-bottom: 5px;
-    padding-top: 20px;
-    padding: left 15px;
+a:hover{
+    background-color: green;
+    
 }
- 
- nav .a {
-     display: table;
-     float: right;
-     height: 100%;
-     padding: 0px 20px;
- }
+nav a {
+    margin-right: 1rem ;
+}
 
- nav .li {
-     display: table-cell;
-     vertical-align: middle;
-     height: 100%;
-     text-decoration: underline;
-     color: white;
- }*/
-.Overview-container {
-    height: 35rem;
-    background-image: url("C:\Coding\Projects\Recycling-Club-Page\Images\IMG_E6853.JPG");
-    background-position: center;
+header {
+    height: fit-content;
+    width: fit-content;
+    border-image: url('../Recycling-Club-Page/Images/alfonso-navarro-qph7tJfcDys-unsplash.jpg');
     display: flex;
-    background-repeat: no-repeat;
-    margin: 100px auto 30px auto; 
-    flex-direction: column;
+    margin: 85px auto 30px auto; 
     background-size: cover;
-    z-index: 100;
-    padding-top: 15px;
+    background-position: center;
+    
+   
+  
 }
 
-.Overview-container h2 {
+header h2 {
     color:black;
     opacity: 0.65;
     text-align: center;
