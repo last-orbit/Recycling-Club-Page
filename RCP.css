@@ -62,10 +62,10 @@ header h2 {
     font-family: 'Courier new', Courier, monospace;
     width: 100%;
     z-index: 100;
-    font-size: 3.75rem;
-    margin: 68% auto 100px auto;
+    font-size: 3.5rem;
+    margin: 50% auto 100px auto;
     background-color: black;
-    max-height: 9rem;
+    max-height: 5rem;
 }
 
 #Experience {
