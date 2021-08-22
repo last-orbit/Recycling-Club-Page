@@ -50,7 +50,7 @@ header {
     height: 1100px;
     background-image: url('https://source.unsplash.com/YzSZN3qvHeo/900x700');
     display: flex;
-    margin: 90px auto 30px auto; 
+    margin: 90px auto 5px auto; 
     background-size: cover;
     background-position: center;  
     background-repeat: no-repeat;
@@ -68,57 +68,42 @@ header h2 {
     max-height: 5rem;
 }
 
-#Experience {
+#MeetUp {
     text-align: center;
-    min-height: 300px;
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
+    padding-top: 0.183rem;
+    padding-bottom: 5px;
+    background-color: bisque;
 }
-.Experience-content h2 {
+
+.MU-content h2,p,h3  {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 70px;
-    font-weight: normal;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
 }
 
-.season {
+.Acts {
     display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
+    margin-top: 20px;
     min-height: 300px;
     align-content: space-around;
-    justify-content: space-evenly;
-}
-.image-container {
-    overflow: hidden;
-    max-width: fit-content;
-    
-}
-.image-container img {
-    display: block;
-    max-width: 80%;
-    margin: auto;
-    max-height: 210px;
-    min-height: 175px;
+    flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   
 }
 
-.shows {
-    display: block;
-    
-    align-items: center;
-    max-width: 145px;
-    max-height: 115px;
-   }
-   
-.shows img {
-display: block;
-max-width: 100%;
-margin: auto;
-max-height: 400px;
-min-height: 100px;
+.Sub-Acts img {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    image-resolution: 300dpi;
+    padding: 10px 10px;
+    image-resolution: ;
 }
+
 
 .Content {
     text-align: center;
