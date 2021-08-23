@@ -162,12 +162,12 @@ header h2 {
 
 /*footer*/
 footer {
-    height: 135px;
+    height: 145px;
     width: cover;
     display: block;
     background-color: bisque;
-    margin-top: 40px;
-    padding-top: 1px;
+    margin-top: 60px;
+    padding-top: 10px;
 }
 
 .contact-information {
