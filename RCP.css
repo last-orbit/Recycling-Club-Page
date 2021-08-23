@@ -47,8 +47,7 @@ nav a {
 }
 
 header {
-    height: 1100px;
-    background-image: url('https://source.unsplash.com/YzSZN3qvHeo/900x700');
+    background-image: url('https://source.unsplash.com/YzSZN3qvHeo/');
     display: flex;
     margin: 90px auto 5px auto; 
     background-size: cover;
@@ -62,10 +61,10 @@ header h2 {
     font-family: 'Courier new', Courier, monospace;
     width: 100%;
     z-index: 100;
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     margin: 50% auto 100px auto;
     background-color: black;
-    max-height: 5rem;
+
 }
 
 #MeetUp {
@@ -77,7 +76,7 @@ header h2 {
 }
 
 .MU-content h2,p,h3  {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -91,89 +90,84 @@ header h2 {
     flex-wrap: wrap;
    flex-direction: row;
    justify-content: center;
-   
+   margin-bottom: 10px;
 }
 
 .Sub-Acts img {
-    width: 250px;
-    height: 500px;
+    width: auto;
+    height: 300px;
     display: flex;
-    align-items: flex-end;
     image-resolution: 300dpi;
     padding: 10px 10px;
-    image-resolution: ;
+    max-width: 70vw;
 }
 
-
-.Content {
+.Sub-Acts h4 {
     text-align: center;
-    display: block;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
 }
 
-#Our-Team {
-    display: flex;
-    justify-content: space-between;
-    padding: 4rem 5%;
+/*Meet the Team */
+#Oteam {
+    margin: auto;
 }
-.banner {
-    color: rgb(255, 255, 255); 
-  /* background-color:rgb(112, 111, 126);*/
+.Oteam {
+    height: 800px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner h2{
+    color: black;   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     text-align: center;
     justify-content: center;
-    height: 70px;
+    height: 50px;
     display: flex;
     align-content: center;
-    
+    align-items: center;
+    background-color: bisque;
 }
 
 .members {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .team-member{
-    flex: 1;
     padding: 1rem;
-    margin: 0px 1.25rem;    
+    margin: 0px 1rem;    
 }
 
-.team-member .image-container {
+.team-member img {
     width: 300px;
-    max-height: 350px;
+    max-height: 400px;
+    min-height: 210px;
     margin: 0 auto;
     
 }
-/*.content{
-
-}*/
-
-.content h2 {
-    background-color: cadetblue;
-    font-size: 2.25rem;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-    width: 65%;
-    margin: 25px auto;
-}
-
-.content h4 {
-    font-size: 1rem;
-    line-height: 1.2;
-    font-weight: 300;
-    color: #ffffff;
-    text-align: center;
+.team-member h2 {
+    background-color: bisque;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*footer*/
 footer {
-    height: 95px;
+    height: 135px;
     width: cover;
-    /*background-color: rgb(100, 104, 94);*/
     display: block;
+    background-color: bisque;
+    margin-top: 40px;
+    padding-top: 1px;
 }
 
 .contact-information {
@@ -184,13 +178,25 @@ text-align: center;
 
 }
 
-.Bottom-logo{
-    justify-content: left;
+#Contact h4{
     top: 65%;
+    float: left;
 }
 
-/*@media screen (min-width: 630) {
-    #Contact {
-        position:
+@media only screen and (max-width: 320px) {
+    .MU-content h2, p, h3 {
+        font-size: 15px;
     }
-*/
+    header {
+        height: fit-content;
+    }
+    header h2 {
+        max-height: 100px;
+    }
+    .Oteam {
+        height: 1150px;
+    }
+    .team-member img {
+        max-height: 300px;
+    }
+}
