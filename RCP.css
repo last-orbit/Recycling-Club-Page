@@ -22,7 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:black;
+    background-color:bisque;
     top: 0px;
     z-index: 1000;
 }
@@ -162,14 +162,16 @@ header h2 {
 
 /*footer*/
 footer {
-    height: 145px;
+    height: 110px;
     width: cover;
     display: block;
     background-color: bisque;
     margin-top: 60px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
-
+.contact-information h2 {
+    margin-bottom: 2px;
+}
 .contact-information {
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 25px;
@@ -181,6 +183,7 @@ text-align: center;
 #Contact h4{
     top: 65%;
     float: left;
+    margin-top: 5px;
 }
 
 @media only screen and (max-width: 320px) {
